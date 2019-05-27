@@ -1,0 +1,167 @@
+body {
+    background-color: white;
+}
+
+#main-card {
+    height: 450px;
+    background-color: rgb(2, 33, 67);
+    text-align: center;
+    border-radius: 0%;
+}
+
+#main-card-content {
+    padding-top: 130px;
+}
+
+button {
+    width: 250px;
+    height: 75;
+}
+
+#btn-hotels {
+    background-color: rgb(255, 96, 0);
+    border: 1px solid rgb(255, 96, 0);
+    color: white;
+    margin: 3px;
+}
+
+#btn-flights {
+    background-color: rgb(46, 134, 185);
+    border: 1px solid rgb(46, 134, 185);
+    color: white;
+    margin: 3px;
+}
+
+#btn-flights:hover,
+#btn-hotels:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#main-nav-bar {
+    height: 200px;
+    font-size: 70px;
+    text-align: center;
+}
+
+#logo {
+    width: 60%;
+    height: auto;
+}
+
+.nav {
+    padding-top: 10px;
+    background-color: rgb(2, 33, 67);
+}
+
+#flights-hotel-btn {
+    background-color: rgb(255, 96, 0);
+    color: white;
+}
+
+#hotels-flight-btn {
+    background-color: rgb(46, 134, 185);
+    color: white;
+}
+
+.nav-link {
+    margin-left: 3px;
+}
+
+.input-group-text {
+    border: none;
+}
+
+.flights-label-text {
+    background-color: rgb(46, 134, 185);
+    color: white;
+    border: 1px solid gray;
+}
+
+#flights-search-btn {
+    border-radius: 0 20px 20px 0;
+    background-color: rgb(46, 134, 185);
+    color: white;
+    border: none;
+}
+
+#flights-from {
+    border-radius: 20px 0px 0px 20px;
+}
+
+#flights-main-div {
+    background-color: white;
+    height: 300px;
+    padding-top: 8%;
+}
+
+#login-form {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+
+}
+
+#main-login-btn {
+    width: 160px;
+
+}
+
+#register-btn {
+    width: 160px;
+
+}
+
+#register-form {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+}
+
+#cardMainDiv {
+    margin: 20px;
+}
+
+#cardContent {
+    margin: 5px;
+    margin-top: 20px;
+    overflow: scroll;
+    font-size: 15px;
+}
+
+#cardContentPrice {
+    text-align: right;
+}
+
+#cardContentScroll {
+    width: auto;
+    height: 100px;
+    overflow: scroll;
+}
+
+.card-header {
+    color: rgb(46, 134, 185);
+}
+
+.btn-primary {
+    background-color: rgb(46, 134, 185);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: rgb(255, 96, 0);
+
+}
+
+#flights-animation-loading {
+    text-align: center;
+}
+
+#div-pagination-buttons {
+    margin: 2px;
+    text-align: center;
+}
+
+li{
+    display:table;
+    margin:0px auto 0px auto;
+}
